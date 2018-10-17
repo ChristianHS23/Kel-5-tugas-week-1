@@ -1,118 +1,114 @@
 body {
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-  }
+  background-color: #FFF;
+  margin: 0 auto;
+}
+footer{
+  height:100px;
+}
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width :100%;
+  z-index: 10;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+p {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
   
-  .navigation ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+}
+li{
+  display:inline-block;
+  width: 80px;
+}
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position:relative;
+  top:50px;
+}
+
+.question {
+  text-align: center;
+  position:static;
+  position:relative;
+  top: 40px;
+
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display:inline-block;
+ 
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
   
-  .navigation li {
-    font-weight: 100;
-    letter-spacing: 2px;
-        padding: 20px;
-  }
-  
-  .navigation  li.logo {
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 4px;
-  }
-  
-  #banner {
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-    background-size: cover;
-    background-position: bottom center;
-    height: 700px;
-    width: 100%;
-  }
-  
-  #banner .content h1 {
-    border: 3px solid white;
-    position: relative;
-    top: 50px;
-    width: 400px;
-    margin: 0 auto;
-  }
-  
-  #main {
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    width: 400px;
-    height: 1000px;
-    overflow: scroll;
-  }
-  
-  h1 {
-    color: white;
-    font-size: 42px;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  h2 {
-    border: 1px dotted red;
-    color: red;
-    font-size: 14px;
-    line-height: 48px;
-    padding: 20px 30px;
-    margin: 30px 20px;
-    text-align: center;
-  }
-  
-  h3 {
-    color: red;
-    font-size: 26px;
-    font-weight: 700;
-    padding: 20px 10px;
-  }
-  
-  p {
-    color: grey;
-    font-size: 16px;
-    line-height: 48px;
-    margin-top: 60px;
-    padding: 10px 20px;
-  }
-  
-  .pull-quote {
-    margin: 0 auto;
-    width: 400px;
-  }
-  
-  .byline {
-    border-bottom: 1px solid LightGrey;
-    border-top: 1px solid LightGrey;
-    color: DarkGrey;
-    font-size: 14px;
-    font-weight: 200;
-  }
-  
-  .share {
-    border: 1px solid LightGrey;
-    padding: 40px 0px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .share a {
-    background: red;
-    border: 1px solid red;
-    border-radius: 3px;
-    color: white;
-    display: inline-block;
-    margin: 10px;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  .share a:hover {
-    background: white;
-    border: 1px solid red;
-    color: red;
-  }
+}
