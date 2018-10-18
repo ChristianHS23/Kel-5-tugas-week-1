@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* NAVBAR */
+header {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.row {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  float: right;
+  margin-top: 10px;
+}
+
+.nav-header li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.nav-header li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: 100;
+}
+
+.nav-header li a:hover {
+  border-bottom: 2px solid sandybrown;
+}
+/* ------------------------- */
+
+h1 {
+  text-align: center;
+}
 .offer {
   color: lightblue;
-  text-align: center;
   font-weight: bold;
   font-size: 50px;
   line-height: 0.8;
