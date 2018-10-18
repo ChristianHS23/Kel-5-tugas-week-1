@@ -39,6 +39,7 @@ h1 {
   text-transform: uppercase;
 }
 
+
 h2 {
   color: #333;
   font-family: 'Varela Round', sans-serif;
@@ -92,17 +93,37 @@ footer {
   top:50px;
 }
 
-.question {
-  text-align: center;
+.getInfo {
+  text-align: left;
   position:static;
   position:relative;
-  top: 40px;
+  top: 0px auto;
 
+}
+.button {
+  width: 200px;
+  padding: 20px;
+  background-color: rgb(204, 167, 98);
+  margin:40px auto;
+  border: 1px solid rgb(139, 53, 44);
+  border-radius: 4px;
+  color: rgb(128, 59, 73);
+  display: block;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: rgb(211, 164, 166);
+  border: 1px solid rgb(58, 25, 54);
+  color: rgb(68, 28, 28);
+}
+.form{
+  background-color: rgb(192, 153, 147);
 }
 
 .answer {
   border: 1px solid #466995;
-  margin: 20px;
+  margin: auto;
   display:inline-block;
  
 }
