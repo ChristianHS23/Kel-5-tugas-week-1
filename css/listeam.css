@@ -76,13 +76,27 @@ color: black;
 h1{
 	color: 	black;
 	margin-top: 10px;
+	font-family: "Raleway";
+	font-weight: 200;
+	font-size: 36px;
+  
 
+}
+.logo img {
+	display: block;
+	margin: 30px auto;
+	width: 50%;
+
+	position: relative;
 }
 
 h2{
 	color: 	black;
+	font-family: "Raleway";
+ 
+  
 	}
 h4{
-
+	font-family: "Raleway";
 	color: black;
 }
