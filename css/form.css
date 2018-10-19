@@ -4,7 +4,20 @@
 header {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #333333;
 }
+
+main {
+  position: absolute;
+  top: 30px;
+  margin: auto;
+  background: grey;
+  width: 100%;
+}
+
 .row {
   max-width: 1180px;
   margin: 0 auto;
@@ -33,10 +46,10 @@ header {
 }
 /* ------------------------- */
 body {
-    background-color: #FFF;
+    margin: 0px;
   }
-  
-  
+
+
   h1{
 	font-size: 36px;
 	color: #E89A2F;
@@ -57,21 +70,21 @@ h4{
 	color: black;
 }
 
-  
+
   p {
     color: #333;
     font-family: "Raleway";
     font-weight: 200;
     text-align: left;
-    
+
   }
- 
+
   footer {
     background-color: #DBE9EE;
     text-align: center;
   }
-  
-  
+
+
   .getInfo label {
     text-align: left;
     position:static;
@@ -80,7 +93,7 @@ h4{
     font-family: "Raleway";
     font-weight: 200;
     text-align: left;
-  
+
   }
   .button {
     width: 200px;
@@ -92,34 +105,32 @@ h4{
     color: rgb(128, 59, 73);
     display: block;
     font-weight: 700;
+    text-align: center;
   }
-  
+
   .button:hover {
     background-color: rgb(211, 164, 166);
     border: 1px solid rgb(58, 25, 54);
     color: rgb(68, 28, 28);
   }
-  .Form{
-    background-color: rgb(255, 255, 255);
-  }
-  
+
   .answer {
     border: 1px solid #466995;
     margin: auto;
     display:inline-block;
     position:relative
-   
+
   }
-  
+
   .answer:hover {
     background: #C0D6DF;
     color: #FFF;
-    
+
   }
   .logo img {
     display: block;
     margin: 30px auto;
     width: 50%;
-  
+
     position: relative;
   }

@@ -4,6 +4,10 @@
 header {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #333333;
 }
 .row {
   max-width: 1180px;
@@ -35,6 +39,15 @@ header {
 
 body {
 	background-color: #FFF;
+  margin: 0px;
+}
+
+main {
+  position: absolute;
+  top: 30px;
+  margin: auto;
+  background: grey;
+  width: 100%;
 }
 
 hr{
@@ -79,7 +92,7 @@ h1{
 	font-family: "Raleway";
 	font-weight: 200;
 	font-size: 36px;
-  
+
 
 }
 .logo img {
@@ -93,8 +106,8 @@ h1{
 h2{
 	color: 	black;
 	font-family: "Raleway";
- 
-  
+
+
 	}
 h4{
 	font-family: "Raleway";

@@ -4,7 +4,12 @@
 header {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #333333;
 }
+
 .row {
   max-width: 1180px;
   margin: 0 auto;
@@ -36,11 +41,21 @@ header {
 .grid-kopi {
   display: grid;
   grid-template-columns: auto auto auto;
+  padding-bottom: 50px;
 }
 .grid-item {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
+  color: black;
+}
+
+main {
+  position: absolute;
+  top: 30px;
+  margin: auto;
+  background: grey;
+  width: 100%;
 }
 
 body {
@@ -49,6 +64,7 @@ body {
     color: #555;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 /* WHAT WE OFFER */
@@ -77,6 +93,7 @@ p {
 }
 p.large {
 	font-size: 20px;
+  color: black;
 }
 
 hr {
@@ -85,10 +102,10 @@ hr {
     border: 0;
     margin: 3em 0;
     padding: 0;
-    background-image: -webkit-linear-gradient(left, #fff, #ccc, #fff);
-    background-image: -moz-linear-gradient(left, #fff, #ccc, #fff);
-    background-image: -ms-linear-gradient(left, #fff, #ccc, #fff);
-    background-image: -o-linear-gradient(left, #fff, #ccc, #fff);
+    background-image: -webkit-linear-gradient(left, #000, #f4b342, #000);
+    background-image: -moz-linear-gradient(left, #000, #f4b342, #000);
+    background-image: -ms-linear-gradient(left, #000, #f4b342, #000);
+    background-image: -o-linear-gradient(left, #000, #f4b342, #000);
     width: 50%;
     left: 25%;
     position: relative;
@@ -96,7 +113,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid ;
 }
 
 .logo img {
